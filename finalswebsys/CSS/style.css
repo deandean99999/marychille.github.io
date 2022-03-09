@@ -1,0 +1,135 @@
+
+body{
+    background-image: url("../backround.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman;'
+}
+.box{
+  width: 300px;
+height: 400px;
+text-align: center;
+margin:0 auto ;
+background-color:rgba(0,0,0,0.7);
+border-radius: 10px;
+margin: 0 auto;
+margin-top: 150px;
+color: white;
+box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+padding: 8px;
+border-bottom: 2px solid;
+}
+h1{
+  color: pink;
+  text-align: center;
+  font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid blue;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  color: pink;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 270px;
+border-color: pink;
+}
+.box input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #ff0800a6;
+  padding: 14px 10px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover{
+  background: #ff9100ec;
+}
+
+.add_btn{
+  display: block;
+  border: 0;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: transparent;
+  text-align: right;
+  text-transform: capitalize;
+}
+table{
+  border: 5px solid rgba(0, 0, 0, 0.856);
+  border-collapse: collapse;
+  width: 100%;
+  background: rgba(250, 83, 6, 0.788);
+}
+
+th,td{
+  background: rgba(243, 239, 239, 0.7);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid;
+
+  
+}
+
+tr:nth-child(even){
+  background-color: transparent;
+}
+.button {
+  background-color: #da3232cc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #f8601a8c; /* Green */
+  color: none;
+}
+.btn{
+    display: block;
+    border: 0;
+    font-size: 16px;
+    padding: 5;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    position: absolute;
+    left: 500px;
+    top: 600px;
+}
+.btnsubmit {
+  background-color: #fc460f;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.btnsubmit:hover {background-color: rgb(255, 0, 0)}

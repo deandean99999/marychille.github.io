@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("backround.jpg")no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.login-wrapper {
+    height: 70vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 30px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 100px;
+    color: white;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+    margin-top: 100px;
+    margin-left: 500px;
+   
+   
+}
+.login-wrapper::before {
+    content:'';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 50%;
+    background: rgba(255,255,255,0.08);
+    transform: skewX(-26deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+   
+}
+.login-wrapper h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ff652f;
+   
+}
+.login-wrapper .input-group {
+    position: relative;
+   
+
+}
+.login-wrapper .input-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+  
+}
+.login-wrapper .input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+   
+
+}
+.login-wrapper.input-group input:valid + label {
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+    
+}
+.submit-btn[type=button], input[type=submit], input[type=reset] {
+    background-color: #fc460f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.close{
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
+}
+
+
